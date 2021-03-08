@@ -1,4 +1,5 @@
 #Generating benchmark problems
+
 ##Random n-ary DCOPs
 To generate a random DCOP, pass the following arguments to `main.py`:
 ```bash
@@ -19,6 +20,7 @@ Examples:
 ```bash
 python -um entry.main -t  randomDCOP -f foo.xml -md 3 -xd 5 -ma 3 -xa 5 -fn 30 -mt .2 -xt .4
 ```
+
 ##NetRad systems
 To generate a NetRad system problem, pass the following arguments to `main.py`:
 ```bash
@@ -33,6 +35,7 @@ Examples:
 ```bash
 python -um entry.main -t netRad -f foo.xml -r 6 -c 8 -np 56
 ```
+
 ##Channel allocation
 To generate a channel allocation system problem, pass the following arguments to `main.py`:
 ```bash
